@@ -1,0 +1,248 @@
+>>>>>>>>>>>>>>>> [['void', 'ns3::Ptr<ns3::Socket>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Socket>', 'unsigned int', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Socket>', 'ns3::Address const&', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['bool', 'ns3::Ptr<ns3::Socket>', 'ns3::Address const&', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Packet>', 'ns3::Ipv6Address', 'ns3::Ipv6Address', 'unsigned char', 'ns3::Ptr<ns3::Ipv6Route>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Packet>', 'ns3::Ipv4Address', 'ns3::Ipv4Address', 'unsigned char', 'ns3::Ptr<ns3::Ipv4Route>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ipv4Address', 'unsigned char', 'unsigned char', 'unsigned char', 'unsigned int', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Packet>', 'ns3::Ipv4Header', 'unsigned short', 'ns3::Ptr<ns3::Ipv4Interface>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::Address const&', 'ns3::NetDevice::PacketType', 'ns3::empty', 'ns3::empty', 'ns3::empty']]
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['std::pair< unsigned int, unsigned int >'],) in wrapper <pybindgen.Container 'std::map< std::pair< unsigned int, unsigned int >, ns3::FlowMonitor::TrackedPacket >'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Socket >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Socket >, unsigned int, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Socket >, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::Socket >, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/bindings/python/ns3modulegen_core_customizations.py:225: Warning: ***** Unable to register callback; parameter 'ns3::Ptr<ns3::Ipv6Route> arg5' error (used in ns3::Callback< void, ns3::Ptr<ns3::Packet>, ns3::Ipv6Address, ns3::Ipv6Address, unsigned char, ns3::Ptr<ns3::Ipv6Route>, ns3::empty, ns3::empty, ns3::empty, ns3::empty >): TypeLookupError(['ns3::Ptr< ns3::Ipv6Route >', 'ns3::Ipv6Route *'],)
+  Warning)
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv4Address, ns3::Ipv4Address, unsigned char, ns3::Ptr< ns3::Ipv4Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ipv4Address, unsigned char, unsigned char, unsigned char, unsigned int, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv4Header, unsigned short, ns3::Ptr< ns3::Ipv4Interface >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:545: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7ff66365b910>
+  cls.add_constructor([param('uint8_t', 'type'), param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:556: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllFrom (params?);
+  [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:561: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllTo (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:565: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyFrom (params?);
+  [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:570: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyTo (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:739: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:744: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:795: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:800: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:814: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:844: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:857: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:912: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:956: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1142: Warning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7ff6634c4a10>
+  cls.add_constructor([param('ns3::Ptr< ns3::EventImpl > const &', 'impl'), param('uint64_t', 'ts'), param('uint32_t', 'context'), param('uint32_t', 'uid')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1176: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekEventImpl (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1247: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::SerializeToXmlStream (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1416: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  is_static=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1481: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1486: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1673: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1690: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7ff663385e50>
+  cls.add_constructor([param('uint8_t *', 'address')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1708: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  is_static=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1733: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1817: Warning: exception TypeLookupError(['ns3::Mac48Address'],) in wrapper public: retval? ???::MakeAutoconfiguredAddress (params?);
+  is_static=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1822: Warning: exception TypeLookupError(['ns3::Mac48Address'],) in wrapper public: retval? ???::MakeAutoconfiguredLinkLocalAddress (params?);
+  is_static=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1837: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1842: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1850: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Set (params?);
+  [param('uint8_t *', 'address')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1915: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7ff6632eac10>
+  cls.add_constructor([param('uint8_t *', 'prefix')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1928: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1963: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1993: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::NetDevice > const, std::vector< ns3::Ptr< ns3::NetDevice > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:1998: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::NetDevice > const, std::vector< ns3::Ptr< ns3::NetDevice > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2044: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Node > const, std::vector< ns3::Ptr< ns3::Node > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2057: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Node > const, std::vector< ns3::Ptr< ns3::Node > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2145: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Delete (params?);
+  is_static=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2218: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2259: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['uint8_t [ 20 ]'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2386: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::Diff (params?);
+  is_static=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2440: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t * const', 'data'), param('uint32_t', 'maxBytes'), param('uint32_t &', 'tsSec'), param('uint32_t &', 'tsUsec'), param('uint32_t &', 'inclLen'), param('uint32_t &', 'origLen'), param('uint32_t &', 'readLen')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2444: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint32_t', 'tsSec'), param('uint32_t', 'tsUsec'), param('uint8_t const * const', 'data'), param('uint32_t', 'totalLen')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2553: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SimulatorImpl >', 'ns3::SimulatorImpl *'],) in wrapper public: retval? ???::GetImplementation (params?);
+  is_static=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2588: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SimulatorImpl >', 'ns3::SimulatorImpl *'],) in wrapper public: retval? ???::SetImplementation (params?);
+  is_static=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2630: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2642: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7ff6630788d0>
+  cls.add_constructor([param('uint8_t *', 'start'), param('uint8_t *', 'end')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2650: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2678: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:2827: Warning: exception TypeLookupError(['ns3::Callback< ns3::ObjectBase *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetConstructor (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['short unsigned int'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:3092: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:3120: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:3236: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:3364: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:3511: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('ns3::Time', 't'), param('uint8_t const *', 'buffer'), param('uint32_t', 'length')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:3844: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Recv (params?);
+  [param('uint8_t *', 'buf'), param('uint32_t', 'size'), param('uint32_t', 'flags')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:3857: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::RecvFrom (params?);
+  [param('uint8_t *', 'buf'), param('uint32_t', 'size'), param('uint32_t', 'flags'), param('ns3::Address &', 'fromAddress')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:3870: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Send (params?);
+  [param('uint8_t const *', 'buf'), param('uint32_t', 'size'), param('uint32_t', 'flags')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:3879: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::SendTo (params?);
+  [param('uint8_t const *', 'buf'), param('uint32_t', 'size'), param('uint32_t', 'flags'), param('ns3::Address const &', 'address')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4063: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4109: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4155: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4201: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4247: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4301: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4517: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4716: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::SerializeToXmlStream (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4802: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::SerializeToXmlStream (params?);
+  [param('std::ostream &', 'os'), param('int', 'indent'), param('bool', 'enableHistograms'), param('bool', 'enableProbes')])
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['std::map< std::pair< unsigned int, unsigned int >, ns3::FlowMonitor::TrackedPacket >'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4907: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::SerializeToXmlStream (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4939: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv4Address, ns3::Ipv4Address, unsigned char, ns3::Ptr< ns3::Ipv4Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::GetDownTarget (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4944: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv6Address, ns3::Ipv6Address, unsigned char, ns3::Ptr< ns3::Ipv6Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::GetDownTarget6 (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4969: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: virtual retval? ???::ReceiveIcmp (params?);
+  is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4974: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: virtual retval? ???::ReceiveIcmp (params?);
+  is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:4984: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv6Address, ns3::Ipv6Address, unsigned char, ns3::Ptr< ns3::Ipv6Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::SetDownTarget6 (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:5222: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::SerializeToXmlStream (params?) const;
+  is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:5277: Warning: exception TypeLookupError(['ns3::Ptr< ns3::ArpCache >', 'ns3::ArpCache *'],) in wrapper public: retval? ???::GetArpCache (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:5324: Warning: exception TypeLookupError(['ns3::Ptr< ns3::ArpCache >', 'ns3::ArpCache *'],) in wrapper public: retval? ???::SetArpCache (params?);
+  [param('ns3::Ptr< ns3::ArpCache >', 'arg0')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:5734: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Ipv4Route >, ns3::Ptr< ns3::Packet const >, ns3::Ipv4Header const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::RouteInput (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6008: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Channel >', 'ns3::Channel *'],) in wrapper public: virtual retval? ???::GetChannel (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6103: Warning: exception TypeLookupError(['ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, short unsigned int, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::SetPromiscReceiveCallback (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6108: Warning: exception TypeLookupError(['ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, short unsigned int, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::SetReceiveCallback (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6170: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Application >', 'ns3::Application *'],) in wrapper public: retval? ???::AddApplication (params?);
+  [param('ns3::Ptr< ns3::Application >', 'application')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6184: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Application >', 'ns3::Application *'],) in wrapper public: retval? ???::GetApplication (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6218: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::RegisterDeviceAdditionListener (params?);
+  [param('ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'listener')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6226: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::UnregisterDeviceAdditionListener (params?);
+  [param('ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'listener')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6289: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7ff66263ba50>
+  cls.add_constructor([param('std::ostream *', 'os')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6293: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::GetStream (params?);
+  [])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6305: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7ff66263ba90>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size'), param('bool', 'magic')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6307: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7ff66263bad0>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6348: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6353: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6408: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  deprecated=True, is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6427: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6432: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintByteTags (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6437: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintPacketTags (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6470: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6552: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6556: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [param('ns3::Ipv4Address', 'address')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6560: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [param('uint16_t', 'port')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6564: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [param('ns3::Ipv4Address', 'address'), param('uint16_t', 'port')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6568: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [param('ns3::Ipv4Address', 'localAddress'), param('uint16_t', 'localPort'), param('ns3::Ipv4Address', 'peerAddress'), param('uint16_t', 'peerPort')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6572: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6576: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [param('ns3::Ipv6Address', 'address')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6580: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [param('uint16_t', 'port')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6584: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [param('ns3::Ipv6Address', 'address'), param('uint16_t', 'port')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6588: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [param('ns3::Ipv6Address', 'localAddress'), param('uint16_t', 'localPort'), param('ns3::Ipv6Address', 'peerAddress'), param('uint16_t', 'peerPort')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6592: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::DeAllocate (params?);
+  [param('ns3::Ipv4EndPoint *', 'endPoint')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6596: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::DeAllocate (params?);
+  [param('ns3::Ipv6EndPoint *', 'endPoint')])
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6619: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: virtual retval? ???::ReceiveIcmp (params?);
+  is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6624: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: virtual retval? ???::ReceiveIcmp (params?);
+  is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6634: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv6Address, ns3::Ipv6Address, unsigned char, ns3::Ptr< ns3::Ipv6Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::SetDownTarget6 (params?);
+  is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6639: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv4Address, ns3::Ipv4Address, unsigned char, ns3::Ptr< ns3::Ipv4Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::GetDownTarget (params?) const;
+  is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/ns-3.16/src/flow-monitor/bindings/modulegen__gcc_LP64.py:6644: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv6Address, ns3::Ipv6Address, unsigned char, ns3::Ptr< ns3::Ipv6Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::GetDownTarget6 (params?) const;
+  is_const=True, is_virtual=True)
+/home/czhe/Documents/ns-allinone-3.16/pybindgen-0.15.0.809/pybindgen/cppclass_typehandlers.py:1134: UserWarning: Returning shared pointers is dangerous!  The C++ API should be redesigned to avoid this situation.
+  warnings.warn("Returning shared pointers is dangerous!"
